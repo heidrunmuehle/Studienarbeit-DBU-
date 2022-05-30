@@ -1,2 +1,4 @@
-# Studienarbeit-DBU-
-Studienarbeit zum Modul Applied Data Science I 
+# Studienarbeit-DBU-mit dem Titel "Omicron als Gamechanger - Analyse der Diskussion über die Einführung einer allgemeinen Covid-19 Impfpflicht im öffentlichen Diskurs der Medienberichterstattung vor dem Hintergrund der Entwicklung der Corona-Fallzahlen" von Heidrun Mühle mit Stand 31. Mai 2022 
+Nachfolgende Instruktionen sind für die korrekte Ausfühung der Jupyter Notebooks, die als Grundlage der Studienarbeit zum Modul Applied Data Science I fungierenzu beachten. 
+Die Jupyter Notebooks müssen in der Reihenfolge ausgeführt werden, dass zuerst das Jupyiternotebook vom Datalake zum Datawarehouse mit dem Titel "Step 1 Datawarehouse" ausgeführt wird, wobei die SQL Datenbank erzeugt wird, die dann für die Analyse mit dem zweiten Analyse Jupyter Notebook "Step 2 Analyse" herangezogen wird. 
+Für das Jupyiter Notebook 1 wird als Datenquelle die Data-Lake Datensammlung des Webscrapers von  Prof. Dr. Marcel Hebing herangezogen. Für das zweite Notebook ist neben der SQL-Datenbank die externe Datensammlung der WHO - hier als Datensatz mit dem Titel "coronaglobal.csv" abgespeichert, für die Analyse erforderlich.   
